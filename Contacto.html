@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Pizzas - Inicio</title>
+    <link rel="shortcut icon" href="imagen/backgrum2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header id="encabezado">
+        <nav id="contenido_encabezado" class="caja-estilo">
+            <a href="index.html" class="logo">Las Pizzas</a>
+            <ul class="menu-list">
+                <li><a href="index.html" ><i class="fa-solid fa-house"></i> INICIO</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-pen-nib"></i> BLOG</a></li>
+                <li><a href="galeria.html"><i class="fa-solid fa-image"></i> GALERIA</a></li>
+                <li><a href="video.html"><i class="fa-solid fa-video"></i> VIDEOS</a></li>
+                <li><a href="Contacto.html"><i class="fa-solid fa-address-book"></i> Contacto</a></li>
+                <li><a href="Nosotros.html"><i class="fa-solid fa-water"></i>Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contacto">
+        <div class="contenedor-contacto-grid">
+            <!--Tabla -->
+            <div class="seccion-tabla-info">
+                <table class="tabla-info">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Información de Contacto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Dirección</strong></td>
+                            <td>Av. Los Constructores 615</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Teléfonos</strong></td>
+                            <td>997 577 470 | 980 978 484 |(01) 2078130</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Email</strong></td>
+                            <td>adm@pizzasraul.com | soporte@pizzaraul.com</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Horarios de Atención Presencial</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="centro">
+                                <strong>Área de Ventas:</strong><br>
+                                De Lunes a viernes de 1:00 p.m. a 11:00
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="img-contacto-card">
+                    <img src="imagen/imagen.jpeg" alt="Café o Pizza">
+                </div>
+            </div>
+
+            <!--Formulario-->
+
+            <div class="seccion-formulario">
+                <form action="#" method="POST" class="contenido-contactos">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="nombre completo">
+
+                    <label for="celular">Celular:</label>
+                    <input type="tel" id="celular" name="celular" required placeholder="xxx xxx xxx">
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="nombre@dominio.com">
+
+                    <label for="mensaje">Mensaje:</label> 
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Detalla tu tipo de pizza favorito" required></textarea>
+
+                <fieldset class="caja-fieldset">
+                   <legend>Elige una opción</legend> 
+                   <label class="opcion-label"><input type="checkbox" name="opcion" value="promociones"> Promociones</label>
+                   <label class="opcion-label"><input type="checkbox" name="opcion" value="delivery"> Delivery</label>
+                   <label class="opcion-label"><input type="checkbox" name="opcion" value="locales"> Locales</label>
+                   <label class="opcion-label"><input type="checkbox" name="opcion" value="horarios"> Horarios</label>
+                </fieldset>
+                <button type="submit" class="botton">ENVIAR</button>
+                </form>    
+            </div>
+    
+            <!-- Mapa-->
+
+            <div class="contenido-mapa">
+                <div class="title-map">Local Central</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.8413159045815!2d-76.95543762436423!3d-12.064304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6f2080b43f9%3A0x8843a17bbc51ecb0!2sAv.%20Los%20Constructores%20615%2C%20La%20Molina%2015012!5e0!3m2!1ses-419!2spe!4v1700000000000!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    </main>
+    <main class="grid">
+    <footer class="title_nosotros">
+        <p>Copyright 2026 - Todos los Derechos Reservados</p>
+    </footer>
+    </main>
+    <main class="grid">
+    <footer class="title_nosotros">
+        <div class="title_nosotros_icons">
+        <a href="https://x.com/PizzaPeru" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="https://www.facebook.com/PizzaRaulOficial/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/pizzaraul_oficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@pizza_raul" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>    
+    </footer>
+    </main>
+</body>
+</html>
